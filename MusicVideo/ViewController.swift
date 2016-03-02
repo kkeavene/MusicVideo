@@ -24,6 +24,7 @@ class ViewController: UIViewController {
    
     func didLoadData(videos: [Video]) {
         
+        print(reachabilityStatus)
         self.videos = videos
         
         for item in videos {
